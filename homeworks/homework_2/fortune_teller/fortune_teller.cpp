@@ -33,7 +33,7 @@ int main () {
     int end_idx = name.size() % ends.size();
     std::cout << "\nHere is your description:\n"
               << name << ", the " << adjs[adj_idx] << " " << nouns.at(noun)
-              << " that " << ends[end_idx] << std::endl;
+              << " that " << ends[end_idx];
 
     return 0;
 }
