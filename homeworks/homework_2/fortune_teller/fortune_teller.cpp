@@ -23,7 +23,7 @@ int main () {
     std::cout << "Please enter the time of year when you were born:\n"
                  "(pick from 'spring', 'summer', 'autumn', 'winter')\n";
     std::cin >> noun;
-    std::cout << "Please enter adjective:\n";
+    std::cout << "Please enter an adjective:\n";
     std::cin >> adj;
     adjs[0] = adj;
     std::cout << "Please enter another adjective:\n";
