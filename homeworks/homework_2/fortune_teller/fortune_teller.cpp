@@ -31,8 +31,8 @@ int main () {
     adjs[1] = adj;
     int adj_idx = name.size() % adjs.size();
     int end_idx = name.size() % ends.size();
-    std::cout << "name size: " << name.size() << ", ends size: " << ends.size() << "end idx; " << end_idx << std::endl;
-    std::cout << name << ", the " << adjs[adj_idx] << " " << nouns.at(noun)
+    std::cout << "\nHere is your description:\n"
+              << name << ", the " << adjs[adj_idx] << " " << nouns.at(noun)
               << " that " << ends[end_idx] << std::endl;
 
     return 0;
